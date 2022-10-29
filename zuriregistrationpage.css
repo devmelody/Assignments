@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    background-color: orangered;
+}
+h1 {
+    text-align: center;
+}
+div{
+display: block;
+}
+a {
+    color: blue;
+}
+form {
+    width: 50%;
+    margin: auto;
+    margin-top: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+label {
+    display: block;
+    margin:  1% auto;
+    font-weight: 600;
+}
+input, select {
+    width: 100%;
+    margin: 1% auto;
+    padding: 0.2em;
+    background-color: black;
+    color: bisque;
+    font-size: 100%;
+}
+input[type="color"]{
+    background-color: white;
+}
+input[type="submit"]{
+    width: 25%;
+    display: block;
+    padding: 1%;
+    color: black;
+    background-color: aqua;
+    border-radius: 8px;
+    font-weight: bold;
+}
