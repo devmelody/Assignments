@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: white;
+            height: 100vh;
+            display: flex;
+            background-color: rgb(25, 74, 90);
+            align-items: center;
+            justify-content: flex-start;
+        }
+        main {
+            display: grid;
+            grid-template-areas: 
+            'a a b '
+            'c d d'
+            'c e e'
+            ;
+            grid-template-columns: 250px 80px 200px;
+            grid-template-rows: 190px 90px 110px;
+            gap: 20px;
+            margin: 3em;
+        }
+        main div {
+            padding: 3em;
+            text-align: center;
+        }
+ 
+        .a {
+            background-color: orangered;
+            grid-area: a;
+        }
+        .b {
+            background-color: orange;
+            grid-area: b;
+        }
+        .c {
+            background-color: green;
+            grid-area: c;
+        }
+        .d {
+            background-color: lightseagreen;
+            grid-area: d;
+        }
+        .e {
+            background-color: lightseagreen;
+            grid-area: e;
+        }
+        
+        
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid task</title>
+</head>
+<body>
+   <main>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+    <div class="e"></div>
+   </main> 
+</body>
+</html>
